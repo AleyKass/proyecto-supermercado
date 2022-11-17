@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;                 /*la pagina queda estable, el padding crecera hacia adentro. Si no se coloca, el tamaño de la caja crece hacia afuera y se tendra que hacer scroll.*/
+    font-family: 'Original Surfer', cursive;
+    font-weight: 500;
+    
+}
+html{
+    font-size: 62.5%;                       /*Es la medida por defecto del tamaño de fuente que se debe dejar para el documento*/
+}
+
+body{
+    
+    font-family: cursive;                   /*Tipo de letra para todo el Website*/
+    background-image: linear-gradient(rgb(000, 000, 000, 0.9), rgba(0,0,0,0.2)),url(./imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(199, 210, 223);
+    font-size: 1.3rem;
+}
+#container{
+    width: 85%;
+    margin: 0px auto;
+    line-height: 2rem;
+}
+
+header{
+    height: 6.25rem;
+    width: 100%;
+    text-align: center;
+    line-height: 4.25rem;
+    border-bottom: 0.2rem solid rgb(57, 190, 23);
+    font-size: 2rem;
+    color: rgb(57, 190, 23);
+    font-weight: bold;
+}
+
+nav{
+    height: 3.125rem;
+    border-bottom: 0.2rem solid rgb(57, 190, 23);
+    
+}
+
+nav ul li{
+    list-style: none;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    display: inline;
+    padding-left: 14rem;
+    
+}
+.colorenlace{
+    color: rgb(199, 210, 223);
+}
+
+.clearfix{
+    clear: both;                                    /*Un div con clearfix funciona para elimiar el espacio inferior y evitar que se apile horizontalmente el contenido que sigue*/
+}
+
+.instrucciones{
+    width: 40rem;
+    text-align: justify;
+    padding-left: 5rem;
+    font-size: 1.3rem;
+    
+}
+#content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border-right: 00.2rem solid rgb(57, 190, 23);               /*Las lineas que dividen cada segmento del Website*/
+}
+
+.Secciones{
+    list-style: none;
+    padding: 0px;
+    font-weight: bold;
+    border-top: 0.075rem solid rgb(57, 190, 23);
+    padding-top: 2rem;
+}
+
+figure{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.fila{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	align-content: stretch;
+}
+
+.imagenes{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+    margin-bottom: 2rem;
+}
+
+.org{
+    display: flex;
+    align-items: center;
+    width: 18rem;
+}
+
+.palabra{
+    margin-left: 0.4rem;
+}
+
+.ultimoparrafo{
+    border-top: 0.075rem solid rgb(57, 190, 23);
+}
+
+aside{
+    float: left;
+    width: 30%;
+    line-height: 2.5rem;
+    padding: 0.9375rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+.enviar{
+    padding-top: 2rem;
+    padding-left: 15rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    font-weight: bold;
+}

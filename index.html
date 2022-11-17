@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Supermercado</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <!--Normalize.css funciana para mantener los estilos del borde del sitio web de una manera organizada y evitar la desconfiguración del sitio web -->
+    <meta name="viewport" content="wwidth=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>¡Merca-Fácil!</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="https://webosfritos.es/" class=" colorenlace">Recetas</a></li>
+                <li><a href="https://www.centrojuliafarre.es/dietas/dieta-equilibrada/"class=" colorenlace">Dietas</a></li>
+                <li><a href="https://www.vitonica.com/alimentos/glosario-nutricion-terminos-importantes-que-tienes-que-conocer-para-llevar-dieta-saludable"class=" colorenlace">Glosario</a></li>
+                <li><a href="https://nosolodulces.es/galeria-fotos-recetas-lectores"class=" colorenlace">Galeria</a></li>
+                <!--enlaces a otros Websites-->
+            </ul>
+        </nav>
+        <div class="clearfix"></div>  
+        <!-- Un div con clearfix funciona para elimiar el espacio inferior y evitar que se apile horizontalmente el contenido que sigue -->
+        
+        <section id="content">
+            <h2>Tu control al mercar.</h2>
+            <article>
+                <p>Al ir a un supermercado, por diferentes circunstancias no logramos llevar un control óptimo de los alimentos y productos que adquirimos para nuestro hogar. Con “Merca-fácil” podrás reorganizar tus compras, de tal manera que siempre tendrás presente qué productos alimenticios necesitas, según tus gustos y necesidades en alacena, carnes, pescados, cuidado del hogar, cuidado personal, frutas, verduras, lácteos, refrigerados y pasabocas.</p>
+                
+            <div class="instrucciones">
+                <h3>Instrucciones de Uso:</h3>
+
+                <p>1.	Antes de salir a mercar, verifica con cuales productos alimenticios aun cuentas y no deseas comprar, marcando la casilla más adelante según corresponda.</p>
+                <p>2.	Cuando estes en tu super, visualiza cuales productos se encuentran sin marcar y a medida que los vallas adquiriendo, los vas marcando en tu lista.</p>
+                <p>3.	Cuando llegues a casa nuevamente, recuerda completar el control de tus gastos que se encuentra al costado derecho.</p>
+            </div>
+            </article>
+            <article>
+                <ul class="Secciones"><li>Artículos para la alacena:</li></ul>
+                    <section class="fila">
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Agua" id="Agua">
+                            <label class="palabra" for="Agua">Agua</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Aromaticas" id="Aromaticas">
+                            <label class="palabra" for="Aromaticas">Aromaticas</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Arroz" id="Arroz">
+                            <label class="palabra" for="Arroz">Arroz</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Atun" id="Atun">
+                            <label class="palabra" for="Atun">Atun</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Avena en ojuelas" id="Avena en ojuelas">
+                            <label class="palabra" for="Avena en ojuelas">Avena</label>
+                        </article>   
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Azucar" id="Azucar">
+                            <label class="palabra" for="Azucar">Azucar</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/agua.png" alt="Agua" height="60px" width="60px" />
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/aromaticas.png" alt="Aromaticas" height="60px" width="60px" />
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/arroz.png" alt="Arroz" height="60px" width="60px" />
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/atun.png" alt="Atun" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/avenaenojuelas.png" alt="Avena en ojuelas" height="60px" width="60px" />
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/azucar.png" alt="Azucar" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Bocadillo" id="Bocadillo">
+                            <label for="Bocadillo">Bocadillo</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Cafe" id="Cafe">
+                            <label class="palabra" for="Cafe">Cafe</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Calado" id="Calado">
+                            <label class="palabra" for="Calado">Calado</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Canela" id="Canela">
+                            <label class="palabra" for="Canela">Canela</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Cereal" id="Cereal">
+                            <label class="palabra" for="Cereal">Cereal</label>
+                        </article>
+                        <article class="org">
+                            <input class="input" type="checkbox" name="Chocolate" id="Chocolate">
+                            <label class="palabra" for="Chocolate">Chocolate</label>
+                            
+                        </article>
+                    </section>
+                    
+                    <section class="imagenes">
+
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/bocadillo.png" alt="Bocadillo" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/cafe.png" alt="Cafe" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/calado.png" alt="Calado" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/canela.png" alt="Canela" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/cereal.png" alt="Cereal" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/chocolate.png" alt="Chocolate" height="60px" width="60px"/>
+                            </figure>
+                        </article>                        
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Color" id="Color">
+                            <label class="palabra" for="Color">Color</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Comino" id="Comino">
+                            <label class="palabra" for="Comino">Comino</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Condimento" id="Condimento">
+                            <label class="palabra" for="Condimento">Condimento</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Frescavena" id="Frescavena">
+                            <label class="palabra" for="Frescavena">Frescavena</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Fríjoles" id="Fríjoles">
+                            <label class="palabra" for="Fríjoles">Fríjoles</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Garbanzos" id="Garbanzos">
+                            <label class="palabra" for="Garbanzos">Garbanzos</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/color.png" alt="Color" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/comino.png" alt="Comino" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/condimento.png" alt="Condimento" height="60px" width="60px"/>
+                            </figure>    
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/frescavena.png" alt="Frescavena" height="60px" width="60px"/>
+                            </figure>     
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/frijoles.png" alt="Frijoles" height="60px" width="60px"/>
+                            </figure>     
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/garbanzos.png" alt="Garbanzos" height="60px" width="60px"/>
+                            </figure> 
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Gaseosa" id="Gaseosa">
+                            <label class="palabra" for="Gaseosa">Gaseosa</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Gelatina" id="Gelatina">
+                            <label class="palabra" for="Gelatina">Gelatina</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Huevos" id="Huevos">
+                            <label class="palabra" for="Huevos">Huevos</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Kola granulada" id="Kola granulada">
+                            <label class="palabra" for="Kola granulada">Kola granulada</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Lentejas" id="Lentejas">
+                            <label class="palabra" for="Lentejas">Lentejas</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Maizena" id="Maizena">
+                            <label class="palabra" for="Maizena">Maizena</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/gaseosa.png" alt="Gaseosa" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/gelatina.png" alt="Gelatina" height="60px" width="60px"/>
+                            </figure>       
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/huevos.png" alt="Huevos" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/kolagranulada.png" alt="Kola granulada" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/lenteja.png" alt="Lentejas" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/maizena.png" alt="Maizena" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Milo" id="Milo">
+                            <label class="palabra" for="Milo">Milo</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pan" id="Pan">
+                            <label class="palabra" for="Pan">Pan</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Panela" id="Panela">
+                            <label class="palabra" for="Panela">Panela</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pan tajado" id="Pan tajado">
+                            <label class="palabra" for="Pan tajado">Pan tajado</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pasta conchas" id="Pasta conchas">
+                            <label class="palabra" for="Pasta conchas">Pasta conchas</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pasta fideos" id="Pasta fideos">
+                            <label class="palabra" for="Pasta fideos">Pasta fideos</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/milo.png" alt="Milo" height="60px" width="60px"/>
+                            </figure>   
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pan.png" alt="Pan" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/panela.png" alt="Panela" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pantajado.png" alt="Pan tajado" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pastaconchas.png" alt="Pasta conchas" height="60px" width="60px"/>
+                            </figure>   
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pastafideos.png" alt="Pasta fideos" height="60px" width="60px"/>
+                            </figure>   
+                        </article>
+                    </section>
+                
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Pasta macarron" id="Pasta macarron">
+                            <label class="palabra" for="Pasta macarron">Pasta macarron</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pasta spaghetti" id="Pasta spaghetti">
+                            <label class="palabra" for="Pasta spaghetti">Pasta spaghetti</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Ricostilla" id="Ricostilla">
+                            <label class="palabra" for="Ricostilla">Ricostilla</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Sal" id="Sal">
+                            <label class="palabra" for="Sal">Sal</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Sardinas" id="Sardinas">
+                            <label class="palabra" for="Sardinas">Sardinas</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Comino" id="Comino">
+                            <label class="palabra" for="Tostadas">Comino</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pastamacarron.png" alt="Pasta macarron" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/pastaspaghetti.png" alt="Pasta spaghetti" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/ricostilla.png" alt="Ricostilla" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/sal.png" alt="Sal" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/sardinas.png" alt="Sardinas" height="60px" width="60px"/>
+                            </figure> 
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/alacena/tostadas.png" alt="Tostadas" height="60px" width="60px"/>
+                            </figure>  
+                        </article>
+                    </section>
+
+                    <ul class="Secciones"><li>Carnes y Pescados:</li></ul>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Carne de cerdo" id="Carne de cerdo">
+                        <label class="palabra" for="Carne de cerdo">Carne de cerdo</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Carne de res" id="Carne de res">
+                        <label class="palabra" for="Carne de res">Carne de res</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mojarra" id="Mojarra">
+                        <label class="palabra" for="Mojarra">Mojarra</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Pollo" id="Pollo">
+                        <label class="palabra" for="Pollo">Pollo</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Salmon" id="Salmon">
+                        <label class="palabra" for="Salmon">Salmon</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Trucha" id="Trucha">
+                        <label class="palabra" for="Trucha">Trucha</label>
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/carnedecerdo.png" alt="Carne de cerdo" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/carnederez.png" alt="Carne de Res" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/mojarra.png" alt="Mojarra" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/pollo.png" alt="Pollo" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/salmon.png" alt="Salmon" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/carnes_y_pescados/trucha.png" alt="Trucha" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <ul class="Secciones"><li>Cuidado del hogar:</li></ul>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Blanqueador" id="Blanqueador">
+                            <label class="palabra" for="Blanqueador">Blanqueador</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Cervilletas" id="Cervilletas">
+                            <label class="palabra" for="Cervilletas">Cervilletas</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Desengrasantes" id="Desengrasantes">
+                            <label class="palabra" for="Desengrasantes">Desengrasantes</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Escoba" id="Escoba">
+                            <label class="palabra" for="Escoba">Escoba</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Esponjas" id="Esponjas">
+                            <label class="palabra" for="Esponjas">Esponjas</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Fabuloso" id="Fabuloso">
+                            <label class="palabra" for="Fabuloso">Fabuloso</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/blanqueador.png" alt="Blanqueador" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/cervilletas.png" alt="Cervilletas" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/desengrasante.png" alt="Desengrasantes" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/escoba.png" alt="Escoba" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/esponjas.png" alt="Esponjas" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/fabuloso.png" alt="Fabuloso" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Glade" id="Glade">
+                            <label class="palabra" for="Glade">Glade</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Guantes" id="Guantes">
+                            <label class="palabra" for="Guantes">Guantes</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Jabon de loza" id="Jabon de loza">
+                            <label class="palabra" for="Jabon de loza">Jabon de loza</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Jabon de pasta" id="Jabon de pasta">
+                            <label class="palabra" for="Jabon de pasta">Jabon de pasta</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Jabon de ropa" id="Jabon de ropa">
+                            <label class="palabra" for="Jabon de ropa">Jabon de ropa</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Limpia muebles" id="Limpia muebles">
+                            <label class="palabra" for="Limpia muebles">Limpia muebles</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/glade.png" alt="Glade" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/guantes.png" alt="Guantes" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/jabonloza.png" alt="Jabon loza" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/jabonpasta.png" alt="Jabon pasta" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/jabon-ropa.png" alt="Jabon de ropa" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/limpiamuebles.png" alt="Limpia muebles" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+                    
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Limpia vidrios" id="Limpia vidrios">
+                            <label class="palabra" for="Limpia vidrios">Limpia vidrios</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Limpiones" id="Limpiones">
+                            <label class="palabra" for="Limpiones">Limpiones</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pastilla baño" id="Pastilla baño">
+                            <label class="palabra" for="Pastilla baño">Pastilla baño</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Recogedor" id="Recogedor">
+                            <label class="palabra" for="Recogedor">Recogedor</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Soflan" id="Soflan">
+                            <label class="palabra" for="Soflan">Soflan</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Trapero" id="Trapero">
+                            <label class="palabra" for="Trapero">Trapero</label>
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/limpiavidrios.png" alt="Limpia vidrios" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/limpiones.png" alt="Limpiones" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/pastillabaño.png" alt="Pastilla baño" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/recogedor.png" alt="Recogedor" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/soflan.png" alt="Soflan" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_del_hogar/trapero.png" alt="Trapero" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+                
+                    <ul class="Secciones"><li>Cuidado Personal:</li></ul>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Acondicionador" id="Acondicionador">
+                            <label class="palabra" for="Acondicionador">Acondicionador</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Ceda dental" id="Ceda dental">
+                            <label class="palabra" for="Ceda dental">Ceda dental</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Cepillo dental" id="Cepillo dental">
+                            <label class="palabra" for="Cepillo dental">Cepillo dental</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Cera cabello" id="Cera cabello">
+                            <label class="palabra" for="Cera cabello">Cera cabello</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Copitos" id="Copitos">
+                            <label class="palabra" for="Copitos">Copitos</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Crema corporal" id="Crema corporal">
+                            <label class="palabra" for="Crema corporal">Crema corporal</label>                            
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/acondicionador.png" alt="Acondicionador" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/ceda-dental.png" alt="Ceda dental" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/cepillo-dental.png" alt="Cepillo dental" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/ceracabello.png" alt="Cera cabello" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/copitos.png" alt="Copitos" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/crema-corporal.png" alt="Crema Corporal" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Crema de afeitar" id="Crema de afeitar">
+                            <label class="palabra" for="Crema de afeitar">Crema de afeitar</label>
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Crema dental" id="Crema dental">
+                            <label class="palabra" for="Crema dental">Crema dental</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Desodorante" id="Desodorante">
+                            <label class="palabra" for="Desodorante">Desodorante</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Enjuague bucal" id="Enjuague bucal">
+                            <label class="palabra" for="Enjuague bucal">Enjuague bucal</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Jabon corporal" id="Jabon corporal">
+                            <label class="palabra" for="Jabon corporal">Jabon corporal</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Jabon manos" id="Jabon manos">
+                            <label class="palabra" for="Jabon manos">Jabon manos</label>                            
+                        </article>
+                    </section>
+
+                    <section class="imagenes">
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/crema-de-afeitar.png" alt="Crema de afeitar" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/crema-dental.png" alt="Crema dental" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/desodorante.png" alt="Desodorante" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/enjuaguebucal.png" alt="Enjuague bucal" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/jabon-corporal.png" alt="Jabon corporal" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/jabon-manos.png" alt="Jabon manos" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                    </section>
+
+                    <section class="fila">
+                        <article class="org">
+                            <input type="checkbox" name="Maquina de afeitar" id="Maquina de afeitar">
+                            <label class="palabra" for="Maquina de afeitar">Maquina afeitar</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Pañitos humedos" id="Pañitos humedos">
+                            <label class="palabra" for="Pañitos humedos">Pañitos humedos</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Papel higienico" id="Papel higienico">
+                            <label class="palabra" for="Papel higienico">Papel higienico</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Protectores femeninos" id="Protectores femeninos">
+                            <label class="palabra" for="Protectores femeninos">Protectores fem.</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Shampoo" id="Shampoo">
+                            <label class="palabra" for="Shampoo">Shampoo</label>                            
+                        </article>
+                        <article class="org">
+                            <input type="checkbox" name="Toallas higienicas" id="Toallas higienicas">
+                            <label class="palabra" for="Toallas higienicas">Toallas higienicas</label>                            
+                        </article>
+                    </section>
+
+                    <section class="imagenes"> 
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/maquina-de-afeitar.png" alt="Maquina de afeitar" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/pañitoshumedos.png" alt="Pañitos humedos" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/papelhigienico.png" alt="Papel higienico" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/protectoresfemeninos.png" alt="Protectores femeninos" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/shampoo.png" alt="Shampoo" height="60px" width="60px"/>
+                            </figure>
+                        </article>
+                        <article class="org">
+                            <figure>
+                                <img src="./imagenes/cuidado_personal/toallashigienicas.png" alt="Toallas higienicas" height="60px" width="60px"/>
+                            </figure>
+                        </article>   
+                    </section>
+                
+                <ul class="Secciones"><li>Frutas y Verduras:</li></ul>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Aguacate" id="Aguacate">
+                        <label class="palabra" for="Aguacate">Aguacate</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Ajo" id="Ajo">
+                        <label class="palabra" for="Ajo">Ajo</label>
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Arandanos" id="Arandanos">
+                        <label class="palabra" for="Arandanos">Arandanos</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Arveja" id="Arveja">
+                        <label class="palabra" for="Arveja">Arveja</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Auyama" id="Auyama">
+                        <label class="palabra" for="Auyama">Auyama</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Banano" id="Banano">
+                        <label class="palabra" for="Banano">Banano</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/aguacate.png" alt="Aguacate" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/ajo.png" alt="Ajo" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/arandanos.png" alt="Arandanos" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/arveja.png" alt="Arveja" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/auyama.png" alt="Auyama" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/banano.png" alt="Banano" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Banano bocadillo" id="Banano bocadillo">
+                        <label class="palabra" for="Banano bocadillo">Banano bocadillo</label>                       
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Brocoli" id="Brocoli">
+                        <label class="palabra" for="Brocoli">Brocoli</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Calabacin" id="Calabacin">
+                        <label class="palabra" for="Calabacin">Calabacin</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Calabaza" id="Calabaza">
+                        <label class="palabra" for="Calabaza">Calabaza</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Cebolla cabezona" id="Cebolla cabezona">
+                        <label class="palabra" for="Cebolla cabezona">Cebolla cabezona</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Cebolla larga" id="Cebolla larga">
+                        <label class="palabra" for="Cebolla larga">Cebolla larga</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/bananobocadillo.png" alt="Banano bocadillo" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="/imagenes/frutas_y_verduras/brocoli.png" alt="Brocoli" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/calabacin.png" alt="Calabacin" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/calabaza.png" alt="Calabaza" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/cebollacabezona.png" alt="Cebolla cabezona" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/cebollalarga.png" alt="Cebolla larga" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                   
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Cerezas" id="Cerezas">
+                        <label class="palabra" for="Cerezas">Cerezas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Cilantro" id="Cilantro">
+                        <label class="palabra" for="Cilantro">Cilantro</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Ciruela" id="Ciruela">
+                        <label class="palabra" for="Ciruela">Ciruela</label>   
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Coco" id="Coco">
+                        <label class="palabra" for="Coco">Coco</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Coliflor" id="Coliflor">
+                        <label class="palabra" for="Coliflor">Coliflor</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Curuba" id="Curuba">
+                        <label class="palabra" for="Curuba">Curuba</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/cerezas.png" alt="Cerezas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/cilantro.png" alt="Cilantro" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/ciruela.png" alt="Ciruela" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/coco.png" alt="Coco" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/coliflor.png" alt="Coliflor" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/curuba.png" alt="Curuba" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Durazno" id="Durazno">
+                        <label class="palabra" for="Durazno">Durazno</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Espinaca" id="Espinaca">
+                        <label class="palabra" for="Espinaca">Espinaca</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Fresas" id="Fresas">
+                        <label class="palabra" for="Fresas">Fresas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Granadilla" id="Granadilla">
+                        <label class="palabra" for="Granadilla">Granadilla</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Guanabana" id="Guanabana">
+                        <label class="palabra" for="Guanabana">Guanabana</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Habichuela" id="Habichuela">
+                        <label class="palabra" for="Habichuela">Habichuela</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/durazno.png" alt="Durazno" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/espinaca.png" alt="Espinaca" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/fresas.png" alt="Fresas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/granadilla.png" alt="Granadilla" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/guanabana.png" alt="Guanabana" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/habichuela.png" alt="Habichuela" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Lechuga" id="Lechuga">
+                        <label class="palabra" for="Lechuga">Lechuga</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Limones" id="Limones">
+                        <label class="palabra" for="Limones">Limones</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mandarinas" id="Mandarinas">
+                        <label class="palabra" for="Mandarinas">Mandarinas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mangos" id="Mangos">
+                        <label class="palabra" for="Mangos">Mangos</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Manzanas" id="Manzanas">
+                        <label class="palabra" for="Manzanas">Manzanas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Maracuya" id="Maracuya">
+                        <label class="palabra" for="Maracuya">Maracuya</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/lechuga.png" alt="Lechuga" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/limon.png" alt="Limones" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/mandarina.png" alt="Mandarinas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/mango.png" alt="Mangos" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/maracuya.png" alt="Manzanas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/maracuya.png" alt="Maracuya" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Mazorca" id="Mazorca">
+                        <label class="palabra" for="Mazorca">Mazorca</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Melon" id="Melon">
+                        <label class="palabra" for="Melon">Melon</label>    
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mora" id="Mora">
+                        <label class="palabra" for="Mora">Mora</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Naranjas" id="Naranjas">
+                        <label class="palabra" for="Naranjas">Naranjas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Papa" id="Papa">
+                        <label class="palabra" for="Papa">Papa</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Papa criolla" id="Papa criolla">
+                        <label class="palabra" for="Papa criolla ">Papa criolla</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/mazorca.png" alt="Mazorca" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/melon.png" alt="Melon" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/mora.png" alt="Mora" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/naranja.png" alt="Naranjas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/papa.png" alt="Papa" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/papacriolla.png" alt="Papa criolla" height="60px" width="60px"/>
+                        </figure>   
+                    </article>   
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Papaya" id="Papaya">
+                        <label class="palabra" for="Papaya">Papaya</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Pepino" id="Pepino">
+                        <label class="palabra" for="Pepino">Pepino</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Pera" id="Pera">
+                        <label class="palabra" for="Pera">Pera</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Pimiento" id="Pimiento">
+                        <label class="palabra" for="Pimiento">Pimiento</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Piña" id="Piña">
+                        <label class="palabra" for="Piña">Piña</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Platano" id="Platano">
+                        <label class="palabra" for="Platano">Platano</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/papaya.png" alt="Papaya" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/pepino.png" alt="Pepino" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/pera.png" alt="Pera" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/pimiento.png" alt="Pimiento" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/piña.png" alt="Piña" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/platano.png" alt="Platano" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Remolacha" id="Remolacha">
+                        <label class="palabra" for="Remolacha">Remolacha</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Sabila" id="Sabila">
+                        <label class="palabra" for="Sabila">Sabila</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Sandia" id="Sandia">
+                        <label class="palabra" for="Sandia">Sandia</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Tomate" id="Tomate">
+                        <label class="palabra" for="Tomate">Tomate</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Uvas" id="Uvas">
+                        <label class="palabra" for="Uvas">Uvas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Zanahoria" id="Zanahoria">
+                        <label class="palabra" for="Zanahoria">Zanahoria</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/remolacha.png" alt="Remolacha" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/sabila.png" alt="Sabila" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/sandia.png" alt="Sandia" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/tomate.png" alt="Tomate" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/uvas.png" alt="Uvas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/frutas_y_verduras/zanahoria.png" alt="Zanahoria" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <ul class="Secciones"><li>Lacteos y Refrigerios:</li></ul>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Bon Yurt" id="Bon Yurt">
+                        <label class="palabra" for="Bon Yurt">Bon Yurt</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Chorizo" id="Chorizo">
+                        <label class="palabra" for="Chorizo">Chorizo</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Crema de leche" id="Crema de leche">
+                        <label class="palabra" for="Crema de leche">Crema de leche</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Helado" id="Helado">
+                        <label class="palabra" for="Helado">Helado</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Jamon" id="Jamon">
+                        <label class="palabra" for="Jamon">Jamon</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Leche" id="Leche">
+                        <label class="palabra" for="Leche">Leche</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/bonyurt.png" alt="Bon Yurt" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/chorizo.png" alt="Chorizo" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/cremadeleche.png" alt="Crema de leche" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/helado.png" alt="Helado" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/jamon.png" alt="Jamon" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/leche.png" alt="Leche" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Leche condensada" id="Leche condensada">
+                        <label class="palabra" for="Leche condensada">Leche condensada</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mantequilla" id="Mantequilla">
+                        <label class="palabra" for="Mantequilla">Mantequilla</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mortadela" id="Mortadela">
+                        <label class="palabra" for="Mortadela">Mortadela</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Pulpas" id="Pulpas">
+                        <label class="palabra" for="Pulpas">Pulpas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Queso" id="Queso">
+                        <label class="palabra" for="Queso">Queso</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Queso tajado" id="Queso tajado">
+                        <label class="palabra" for="Queso tajado">Queso tajado</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/lechecondensada.png" alt="Leche condensada" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/mantequilla.png" alt="Mantequilla" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/mortadela.png" alt="Mortadela" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/pulpas.png" alt="Pulpas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/queso.png" alt="Queso" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/quesotajado.png" alt="Queso tajado" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Salchichas" id="Salchichas">
+                        <label class="palabra" for="Salchichas">Salchichas</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Salsa de carnes" id="Salsa de carnes">
+                        <label class="palabra" for="Salsa de carnes">Salsa de carnes</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Salsa de piña" id="Salsa de piña">
+                        <label class="palabra" for="Salsa de piña">Salsa de piña</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Salsa rosada" id="Salsa rosada">
+                        <label class="palabra" for="Salsa rosada">Salsa rosada</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Salsa de tomate" id="Salsa de tomate">
+                        <label class="palabra" for="Salsa de tomate">Salsa de tomate</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Yogur" id="Yogur">
+                        <label class="palabra" for="Yogur">Yogur</label> 
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/salchichas.png" alt="Salchichas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/salsacarnes.png" alt="Salsa de carnes" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/salsapiña.png" alt="Salsa de piña" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/salsarosada.png" alt="Salsa rosada" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/salsatomate.png" alt="Salsa de tomate" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/lacteos_y_refrigerios/yogur.png" alt="Yogur" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+
+                <ul class="Secciones"><li>Pasabocas:</li></ul>
+
+                <section class="fila">
+                    <article class="org">
+                        <input type="checkbox" name="Arequipe" id="Arequipe">
+                        <label class="palabra" for="Arequipe">Arequipe</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Galleta Dulce" id="Galleta Dulce">
+                        <label class="palabra" for="Galleta Dulce">Galleta Dulce</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Galleta Salada" id="Galleta Salada">
+                        <label class="palabra" for="Galleta Salada">Galleta Salada</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Golosinas" id="Golosinas">
+                        <label class="palabra" for="Golosinas">Golosinas</label>      
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Maiz Pira" id="Maiz Pira">
+                        <label class="palabra" for="Maiz Pira">Maiz Pira</label>                        
+                    </article>
+                    <article class="org">
+                        <input type="checkbox" name="Mani" id="Mani">
+                        <label class="palabra" for="Mani">Mani</label>                        
+                    </article>
+                </section>
+
+                <section class="imagenes">
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/arequipe.png" alt="Arequipe" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/galletadulce.png" alt="Galleta dulce" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/galletasalada.png" alt="Galleta salada" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/golosinas.png" alt="Golosinas" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/maizpira.png" alt="Maiz Pira" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                    <article class="org">
+                        <figure>
+                            <img src="./imagenes/pasabocas/mani.png" alt="Mani" height="60px" width="60px"/>
+                        </figure>
+                    </article>
+                </section>
+                    
+            </article>
+            
+        </section>
+        <aside>
+            <!--Con aside se configura el formulario que va ubicado al lado derecho del Website-->
+            <h2>Formulario</h2>
+            <article>
+                <p>Aquí podrás llevar un control de los gastos al momento de realizar las compras en el supermercado. Asegúrate de completar los siguientes datos:</p>
+            </article>
+            <form action="">
+                <article>
+                    <label for="nombre">
+                        <span>¿Cual es tu nombre?</span>
+                    </article>
+                    <article>
+                        <input type="text" name="nombre" id="nombre" autocomplete="additional-name" required placeholder="Tu nombre">
+                        <!--input: casilla, type: tipo de dato que se solicita: name: nombre del proceso, requider placeholder: Pista de lo que se solicita-->
+                </label>
+
+                </article>
+           
+            <article>
+                <label for="fecha">
+                    <span>¿En que fecha estas haciendo tus compras?</span>
+                    <article>
+                        <input type="date" name="fecha" id="fecha" required>
+                    </article>
+                    
+            </label>
+            </article>
+            
+            <article>
+                <label for="país">
+                    <span>¿Cual es el país donde te encuentras?</span>
+                    <article>
+                        <input type="text" name="país" id="país" autocomplete="country" required placeholder="Tu país">
+                    </article>
+                    
+                </label>
+            </article>
+            
+            <article>
+                <label for="ciudad">
+                    <span>¿Cual es la ciudad donde te encuentras?</span>
+                        <article>
+                            <input type="text" name="ciudad" id="ciudad" autocomplete="country-name" required placeholder="Tu ciudad">
+                        </article>
+                </label>
+            </article>
+            
+            <article>
+                <label for="lugar">
+                    <span>¿En cual supermercado te encuentras?</span>
+                    <article>
+                        <input type="text" name="lugar" id="lugar" placeholder="Razon Social" required>
+                    </article>
+                </label>
+            </article>
+            
+            <article>
+                <label for="promedio-gastos">
+                    <span>¿Cual es el promedio de gastos?</span>
+                    <article>
+                        <input type="number" name="promedio-gastos" id="promedio-gastos" autocomplete="transaction-currency" required placeholder="valor en pesos">
+                    </article>
+                </label>
+            </article>
+            
+            <article>
+                <span>¿Cual producto de la alacena subió más su valor?</span>
+                <article>
+                    <input list="Alacena" placeholder="Selecciona"/>
+                        <datalist id="Alacena">
+                            <Option value="Agua"></Option>
+                            <Option value="Aromaticas"></Option>
+                            <Option value="Arroz"></Option>
+                            <Option value="Atun"></Option>
+                            <Option value="Avena en ojuelas"></Option>
+                            <Option value="Azucar"></Option>
+                            <Option value="Bocadillo"></Option>
+                            <Option value="Cafe"></Option>
+                            <Option value="Calado"></Option>
+                            <Option value="Canela"></Option>
+                            <Option value="Cereal"></Option>
+                            <Option value="Chocolate"></Option>
+                            <Option value="Color"></Option>
+                            <Option value="Comino"></Option>
+                            <Option value="Condimento"></Option>
+                            <Option value="Frescavena"></Option>
+                            <Option value="Frijoles"></Option>
+                            <Option value="Garbanzos"></Option>
+                            <Option value="Gaseosa"></Option>
+                            <Option value="Gelatina"></Option>
+                            <Option value="Huevos"></Option>
+                            <Option value="Kola granulada"></Option>
+                            <Option value="Leche"></Option>
+                            <Option value="Lentejas"></Option>
+                            <Option value="Maizena"></Option>
+                            <Option value="Milo"></Option>
+                            <Option value="Pan"></Option>
+                            <Option value="Panela"></Option>
+                            <Option value="Pan tajado"></Option>
+                            <Option value="Pasta conchas"></Option>
+                            <Option value="Pasta fideos"></Option>
+                            <Option value="Pasta macarron"></Option>
+                            <Option value="Pasta spaghetti"></Option>
+                            <Option value="Ricostilla"></Option>
+                            <Option value="sal"></Option>
+                            <Option value="Sardinas"></Option>
+                            <Option value="Tostadas"></Option>
+                            <!--Mediante Option se configuran las opciones que le saldran al usuario para que el pueda escoger, es decir, los productos-->
+                        </datalist>
+                    </article>
+            </article>
+
+            <article>
+                <span>¿Cual producto de carnes y pescados subió más su valor?</span>
+                    <article>
+                        <input list="Carnes" placeholder="Selecciona"/>
+                            <datalist id="Carnes">
+                                <Option value="Carne de Cerdo"></Option>
+                                <Option value="Carne de Res"></Option>
+                                <Option value="Mojarra"></Option>
+                                <Option value="Pollo"></Option>
+                                <Option value="Salmon"></Option>
+                                <Option value="Trucha"></Option>
+                            </datalist>
+                    </article>
+            </article>
+
+            <article>
+                <span>¿Cual producto de cuidado del hogar subió más su valor?</span>
+                    <article>
+                        <input list="aseo-hogar" placeholder="Selecciona"/>
+                            <datalist id="aseo-hogar">
+                                <Option value="Blanqueador"></Option>
+                                <Option value="Cervilletas"></Option>
+                                <option value="Desengrasantes"></Option>
+                                <option value="Escoba"></Option>
+                                <option value="Esponjas"></Option>
+                                <option value="Fabuloso"></Option>
+                                <option value="Glade"></Option>
+                                <option value="Guantes"></Option>
+                                <option value="Jabon de loza"></Option>
+                                <option value="Jabon de pasta"></Option>
+                                <option value="Jabon de ropa"></Option>
+                                <option value="Limpia muebles"></Option>
+                                <option value="Limpia vidrios"></Option>
+                                <option value="Limpiones"></Option>
+                                <option value="Pastilla de baño"></Option>
+                                <option value="Recogedor"></Option>
+                                <option value="Soflan"></Option>
+                                <option value="Trapero"></Option>
+                    </datalist>
+                </article>
+            </article>
+
+            <article>
+                <span>¿Cual producto de cuidado personal subió más su valor?</span>
+                    <article>
+                        <input list="aseo-corporal" placeholder="Selecciona"/>
+                            <datalist id="aseo-corporal">
+                                <Option value="Acondicionador"></Option>
+                                <Option value="Ceda dental"></Option>
+                                <Option value="Cepillo dental"></Option>
+                                <Option value="Cera del cabello"></Option>
+                                <Option value="Copitos"></Option>
+                                <Option value="Crema corporal"></Option>
+                                <Option value="Crema de afeitar"></Option>
+                                <Option value="Crema dental"></Option>
+                                <Option value="Desodorante"></Option>
+                                <Option value="Enjuague bucal"></Option>
+                                <Option value="Jabon corporal"></Option>
+                                <Option value="Jabon de manos"></Option>
+                                <Option value="Maquina de afeitar"></Option>
+                                <Option value="Pañitos humedos"></Option>
+                                <Option value="Papel higienico"></Option>
+                                <Option value="Protectores femeninos"></Option>
+                                <Option value="Shampoo"></Option>
+                                <Option value="Toallas higienicas"></Option>
+                        </datalist>
+                    </article>
+                
+            </article>
+
+            <article>
+                <span>¿Cual producto de frutas y verduras subió más su valor?</span>
+                    <article>
+                        <input list="Verduras" placeholder="Selecciona"/>
+                            <datalist id="Verduras">
+                                <Option value="Aguacate"></Option>
+                                <Option value="Ajo"></Option>
+                                <Option value="Arandanos"></Option>
+                                <Option value="Arveja"></Option>
+                                <Option value="Auyama"></Option>
+                                <Option value="Banano"></Option>
+                                <Option value="Banano bocadillo"></Option>
+                                <Option value="Brocoli"></Option>
+                                <Option value="Calabacin"></Option>
+                                <Option value="Calabaza"></Option>
+                                <Option value="Cebolla cabezona"></Option>
+                                <Option value="Cebolla larga"></Option>
+                                <Option value="Cebolla"></Option>
+                                <Option value="Cerezas"></Option>
+                                <Option value="Cilantro"></Option>
+                                <Option value="Ciruela"></Option>
+                                <Option value="Coco"></Option>
+                                <Option value="Coliflor"></Option>
+                                <Option value="Curuba"></Option>
+                                <Option value="Durazno"></Option>
+                                <Option value="Espinaca"></Option>
+                                <Option value="Fresas"></Option>
+                                <Option value="Granadilla"></Option>
+                                <Option value="Guanabana"></Option>
+                                <Option value="Habichuela"></Option>
+                                <Option value="Lechuga"></Option>
+                                <Option value="Limones"></Option>
+                                <Option value="Mandarinas"></Option>
+                                <Option value="Mangos"></Option>
+                                <Option value="Manzanas"></Option>
+                                <Option value="Maracuya"></Option>
+                                <Option value="Mazorca"></Option>
+                                <Option value="Melon"></Option>
+                                <Option value="Mora"></Option>
+                                <Option value="Naranjas"></Option>
+                                <Option value="Papa"></Option>
+                                <Option value="Papa criolla"></Option>
+                                <Option value="Papaya"></Option>
+                                <Option value="Pepino"></Option>
+                                <Option value="Pera"></Option>
+                                <Option value="Pimiento"></Option>
+                                <Option value="Piña"></Option>
+                                <Option value="Platano"></Option>
+                                <Option value="Remolacha"></Option>
+                                <Option value="Sabila"></Option>
+                                <Option value="Sandia"></Option>
+                                <Option value="Tomate"></Option>
+                                <Option value="Uvas"></Option>
+                                <Option value="Zanahoria"></Option>
+                        </datalist>
+                    </article>
+            </article>
+            
+            <article>
+                <span>¿Cual producto de leche y lacteos subió más su valor?</span>
+                    <article>
+                        <input list="leche" placeholder="Selecciona"/>
+                            <datalist id="leche">
+                                <Option value="Bon Yurt"></Option>
+                                <Option value="Chorizo"></Option>
+                                <Option value="Crema de leche"></Option>
+                                <Option value="Helado"></Option>
+                                <Option value="Jamon"></Option>
+                                <Option value="Leche"></Option>
+                                <Option value="Leche condensada"></Option>
+                                <Option value="Mantequilla"></Option>
+                                <Option value="Mortadela"></Option>
+                                <Option value="Pulpas"></Option>
+                                <Option value="Queso"></Option>
+                                <Option value="Queso tajado"></Option>
+                                <Option value="Salchichas"></Option>
+                                <Option value="Salsa de carnes"></Option>
+                                <Option value="Salsa de piña"></Option>
+                                <Option value="Salsa rosada"></Option>
+                                <Option value="Salsa de tomate"></Option>
+                                <Option value="Yogur"></Option>
+                        </datalist>
+                    </article>
+            </article>
+
+            <article>
+                <span>¿Cual producto de Pasabocas subió más su valor?</span>
+                    <article>
+                        <input list="Pasabocas" placeholder="Selecciona"/>
+                            <datalist id="Pasabocas">
+                                <Option value="Arequipe"></Option>
+                                <Option value="Galleta Dulce"></Option>
+                                <Option value="Galleta Salada"></Option>
+                                <Option value="Golosinas"></Option>
+                                <Option value="Maiz Pira"></Option>
+                                <Option value="Mani"></Option>
+                    </article>
+                </datalist>
+            </article>
+
+            <article>
+                <label for="correo">
+                    <span>¿Cual es tu correo electrónico?</span>
+                   <article>
+                        <article>
+                            <input type="email" name="email" id="email" required placeholder="Tu correo electrónico"/>
+                        </article>
+                   </article> 
+                </label>
+            </article>
+            
+            <article>
+                <label for="telefono">
+                    <span>¿Cual es tu número telefónico?</span>
+                        <article>
+                            <input type="number" name="numero telefónico" id="numero telefónico" autocomplete="tel" required placeholder="Tu número telefónico"/> 
+                        </article>
+                </label>
+                <article class="enviar">
+                    <input type="submit">
+                </article>
+            </article>
+        </form>
+        </aside>
+        <div class="clearfix"></div>
+
+        <footer>
+            <p class="ultimoparrafo">Cada vez que desees ir de compras, podrás hacer uso de “Merca-fácil” antes de salir de tu hogar, así recordaras que productos no necesitas y tendrás siempre a la mano el listado de los alimentos que deseas adquirir.</p>
+            
+            "AleyKass"
+        </footer>
+
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
